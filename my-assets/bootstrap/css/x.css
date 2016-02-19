@@ -1,0 +1,263 @@
+body{
+    font-family:"Lato", "Trebuchet MS";
+}
+
+.form-control{
+    border-radius:1px;
+    box-shadow:none;
+}
+.input-group-addon{
+    border-radius:0px;   
+}
+
+.req-red{
+    color:#F00;   
+}
+
+.harga{
+    font-size:30px;
+    font-weight:700;
+    color:#FFF;
+}
+
+.message{
+    display:none;
+    width: 100%;
+    border:none;
+    color: #FFF;
+    opacity:0.95;
+    padding: 10px;
+    cursor:pointer;
+    position: fixed;
+    z-index:99999;
+}
+
+.message i{
+    margin-right:5px;   
+}
+
+.message ul{
+    margin: 0;
+    padding:0;
+}
+.message ul li{
+    margin-left:15px;
+}
+
+.info{background-color: #4ea5cd;}
+.error{background-color: #d52c30;}
+.warning{background-color: #de9c0c;}
+.success{background-color: #61b832;}
+
+.message h3{
+    margin: 0 0 6px 0;
+    color:#FFF !important;
+}
+
+.btn{
+    border-radius:2px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.ptable{
+    margin:15px 0;
+    box-shadow:0px 0px 3px rgba(0,0,0,0.1);
+    background: linear-gradient(to right, #13499f, #1c54ae, #276bd8, #1c5cc1);
+}
+
+.ptable thead{
+    color:#FFF;
+}
+.ptable thead tr th{
+    padding:10px;
+    font-weight:700;
+    font-size:120%;
+    border:none;
+}
+.ptable tbody tr td{
+    padding:10px;
+    background:#FFF;
+    border-color:#F1F1F1; 
+    
+}
+
+.ptable tr:nth-child(odd) td {
+    
+    background:#FBFBFB;
+}
+
+.pricetd span{
+    float:right;
+}
+
+#header-menu{
+    background:#ffdf5a;
+    border-radius:0;
+    padding-top:25px;
+    padding-bottom:5px;
+    border:none;
+    border-bottom:solid 1px #d3c691;
+    margin:0;
+    position:relative;
+}
+#navbar > ul{
+    margin-left:180px;  
+}
+#header-menu li a{
+    color:#000;
+    font-size:120%;
+    padding:8px 10px;
+    background:none;
+    font-weight:700;
+}
+
+#header-menu li a i{
+    width:20px;   
+    text-align:center;
+}
+#header-menu ul li ul li a{
+    margin-right:0px;
+    border-radius:0px;
+}
+#header-menu li a:hover{
+    border-radius:2px;
+    color:#FFF;
+    background:#0f3b82;
+    
+}
+#header-menu .icon-bar{
+    background:#333;   
+}
+
+#logo{
+    margin-top:-60px;   
+    position:relative;
+    float:left;
+}
+#header-div{
+    border-top:solid 1px #e1e1e1;  
+    padding-bottom:40px; 
+}
+
+#header-title{
+    margin-left:200px;  
+    margin-bottom:10px;
+}
+#header-title h1{
+    font-weight:700;
+    color:#13499f;   
+    margin:16px 0 0;
+}
+#header-title #motto{
+    font-weight:700;
+    font-size:15px;   
+}
+
+#mcontent{
+    min-height:300px;   
+}
+
+.btn-purple{
+    color:#fff;
+    background-color:#804998;
+    border-color:#6d2f88;
+}
+
+.btn-purple:hover,.btn-purple:focus,.btn-purple:active,.btn-purple.active,.open>.dropdown-toggle.btn-purple{
+    color:#fff;
+    background-color:#7a3897;
+    border-color:#6d2f88
+}
+
+.btn-purple:active,.btn-purple.active,.open>.dropdown-toggle.btn-purple{
+    background-image:none
+}
+
+.btn-purple.disabled,.btn-purple[disabled],fieldset[disabled] .btn-purple,.btn-purple.disabled:hover,.btn-purple[disabled]:hover,fieldset[disabled] .btn-purple:hover,.btn-purple.disabled:focus,.btn-purple[disabled]:focus,fieldset[disabled] .btn-purple:focus,.btn-purple.disabled:active,.btn-purple[disabled]:active,fieldset[disabled] .btn-purple:active,.btn-purple.disabled.active,.btn-purple[disabled].active,fieldset[disabled] .btn-purple.active{
+    background-color:#845a96;
+    border-color:#764f87
+}
+
+h2{
+    color:#13499f;   
+    font-weight:700;
+    font-size:180%;
+}
+
+h3{
+    color:#13499f;   
+    font-weight:700;
+    font-size:150%;
+}
+
+h4{
+    color:#13499f;   
+    font-weight:700;
+    font-size:120%;
+}
+
+.label{
+    text-transform:uppercase;
+    display:inline-block;
+    width:78px;
+    padding:5px 0;
+    border-radius:2px;
+}
+
+#footer-div{
+    background:#081e41;
+    color:#FFF;
+    margin-top:30px;
+}
+
+#footer{
+    padding:20px 0;   
+}
+#footer h4{
+    font-weight:700;   
+}
+#footer h4, #footer p{
+    color:#ffce53;
+    text-align: justify;
+}
+#footer li{
+    margin-bottom:8px; 
+}
+#footer a{
+    color:#FFF;  
+}
+
+@media (max-width: 768px) {
+    #header-menu{
+        padding-top:0;   
+    }
+    
+    #header-menu li a{
+        margin-right:0;
+    }
+    #navbar{
+        background:#424242;   
+    }
+    .navbar-brand{
+        font-weight:700;
+        color:#444;
+        font-size:150%;   
+    }
+    #navbar > ul{
+        margin-left:-15px;  
+    }
+    #navbar ul li a{
+        color:#FFF;
+        
+    }
+    
+    #header-div{
+        background:#F1F1F1;
+        padding-bottom:8px;   
+    }
+    #header-title{
+        margin-left:0;  
+    }
+    
+}
